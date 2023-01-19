@@ -1,0 +1,57 @@
+@value makerLightGrey from '../../common/color.css';
+@value makerGrey from '../../common/color.css';
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 20px 0;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  margin-left: 16px;
+  width: 120px;
+}
+
+.list {
+  display: flex;
+}
+
+.list h4 {
+  display: flex;
+  align-items: center;
+  margin: 12px 12px;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.userBtn,
+.logoutBtn {
+  height: 26px;
+  margin: 0 8px;
+  padding: 4px 12px;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.userBtn {
+  color: white;
+  background-color: black;
+}
+
+.logoutBtn {
+  color: makerGrey;
+}

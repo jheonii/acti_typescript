@@ -1,0 +1,99 @@
+@value makerLightGrey from '../../common/color.css';
+@value makerGrey from '../../common/color.css';
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/Users/jaeheonj/Library/Mobile Documents/com~apple~CloudDocs/dev_private/acti_ts/acti_ts/public/images/background/bg_1.png");
+}
+
+/*middle container*/
+
+.middleCnt {
+  margin: auto;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.topTitle {
+  color: makerGrey;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+.roundTitle,
+.mainTitle {
+  padding: 0 8px;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: -0.1em;
+}
+
+.roundTitle {
+  padding: 6px 16px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-color: white;
+  font-weight: light;
+}
+
+.mainTitle {
+  font-weight: 900;
+}
+
+.Btn {
+  margin-top: 30px;
+  padding: 20px 30px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+/*putter container*/
+
+.putterCnt {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+
+  background-color: #ffffff58;
+}
+
+.putterItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: 0 60px;
+  text-align: center;
+}
+
+.line {
+  width: 1px;
+  height: 60%;
+  background-color: makerLightGrey;
+}
+
+.putterItemIcon {
+  width: 28px;
+}
+
+.putterItem h2 {
+  margin-top: 8px;
+}
+
+.putterItem h4 {
+  font-weight: 500;
+  color: makerGrey;
+}
