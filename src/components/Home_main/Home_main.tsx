@@ -9,7 +9,7 @@ const HomeMain = () => {
         <span className={styles.roundTitle}>60억가지&nbsp;</span>
         <span className={styles.mainTitle}>맞춤형 화장품</span>
         <br />
-        <span className={styles.mainTitle}>성분조합&nbsp;</span>
+        <span className={styles.mainTitle}>효능배합&nbsp;</span>
         <span className={styles.roundTitle}>1억 가지</span>
         <br />
         <button className={styles.Btn}>맞춤형 화장품 처방받기 →</button>
@@ -21,7 +21,7 @@ const HomeMain = () => {
           <img className={styles.putterItemIcon}
             src='./images/icons/UserCircle.png'
             alt='usercircle' />
-          <h2>1만가지</h2>
+          <h2>1억가지</h2>
           <h4>맞춤형 솔루션</h4>
         </div>
         <div className={styles.line}></div>

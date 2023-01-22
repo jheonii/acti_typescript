@@ -4,7 +4,7 @@
 .section {
   position: relative;
   width: 100%;
-  height: 550px;
+  height: 580px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -28,14 +28,14 @@
 .roundTitle,
 .mainTitle {
   padding: 0 8px;
-  font-size: 36px;
-  line-height: 65px;
-  letter-spacing: -0.1em;
+  font-size: 34px;
+  line-height: 60px;
+  letter-spacing: -2px;
 }
 
 .roundTitle {
   padding: 6px 16px;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 40px;
   background-color: white;
   font-weight: light;
@@ -52,6 +52,11 @@
   border: none;
   color: white;
   font-size: 20px;
+  transition: all ease-in-out 400ms;
+}
+
+.Btn:hover {
+  background-color: #000000c6;
 }
 
 /*putter container*/

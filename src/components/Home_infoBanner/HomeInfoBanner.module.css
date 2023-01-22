@@ -1,0 +1,50 @@
+@value makerLightGrey from '../../common/color.css';
+@value makerGrey from '../../common/color.css';
+
+.section {
+  padding: 100px 0 60px 0;
+  text-align: center;
+}
+
+.imgCnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 20px;
+  max-width: 620px;
+  border-radius: 150px;
+}
+
+.bannerImg {
+  top: 20px;
+  width: 500px;
+}
+
+/*Info Section*/
+.infoSection {
+  margin: auto;
+  text-align: center;
+}
+
+.subTitle {
+  margin: 20px auto 5px auto;
+  padding: 3px 4px;
+  width: 120px;
+  border: 1.5px solid black;
+  border-radius: 20px;
+}
+
+.mainTitle {
+  margin: 12px 0 0 0;
+}
+
+.title {
+  margin: 4px 0 20px 0;
+  font-weight: 500;
+  color: makerGrey;
+}
+
+.desc {
+  margin: 14px auto;
+}

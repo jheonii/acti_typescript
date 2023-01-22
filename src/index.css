@@ -22,9 +22,15 @@ code {
     monospace;
 }
 
+h1 {
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: -0.3px;
+}
+
 h2 {
   margin: 0;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: -0.3px;
 }
 

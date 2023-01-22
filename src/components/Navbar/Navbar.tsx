@@ -12,7 +12,7 @@ const Navbar = () => {
 				<h4>진단하기</h4>
 				<h4>내 진단 기록</h4>
 				<div className={styles.btnContainer}>
-					<button className={styles.userBtn}>홍길동님</button>
+					<button className={styles.userBtn}>마이페이지</button>
 					<button className={styles.logoutBtn}>로그아웃</button>
 				</div>
 			</div>
