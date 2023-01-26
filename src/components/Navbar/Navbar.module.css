@@ -15,10 +15,12 @@
 .logo {
   margin-left: 16px;
   width: 120px;
+  cursor: pointer;
 }
 
 .list {
   display: flex;
+  margin-right: 16px;
 }
 
 .list h4 {

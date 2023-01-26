@@ -1,7 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './Home_main.module.css';
 
 const HomeMain = () => {
+
+  const navigate = useNavigate();
+
   return (
     <section className={styles.section}>
       <div className={styles.middleCnt}>
@@ -12,7 +16,7 @@ const HomeMain = () => {
         <span className={styles.mainTitle}>효능배합&nbsp;</span>
         <span className={styles.roundTitle}>1억 가지</span>
         <br />
-        <button className={styles.Btn}>맞춤형 화장품 처방받기 →</button>
+        <button className={styles.Btn} onClick={() => navigate('/diagnosis')}>맞춤형 화장품 처방받기 →</button>
       </div>
 
       {/* putter container */}

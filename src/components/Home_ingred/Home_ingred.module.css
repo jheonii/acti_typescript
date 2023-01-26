@@ -26,17 +26,21 @@
   color: white;
 }
 
-.containier {
-  position: relative;
-  margin: auto;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto;
+  max-width: 700px;
 }
 
 .mainBtn {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 50px;
   padding: 8px 0;
-  width: 200px;
+  width: 250px;
   background-color: white;
   border-radius: 30px;
   box-shadow: 0px 0px 24px rgba(255, 255, 255, 0.6);
@@ -47,25 +51,17 @@
 }
 
 .figureCnt {
-  display: flex;
-  justify-content: center;
-  position: relative;
+  width: 400px;
   color: white;
+  background-color: #4646468d;
+  box-shadow: 0px 0px 14px #ffffff3c;
 }
 
-.grouper {
+/* .grouper {
   position: absolute;
-}
-
-.subBtnCnt {
-  position: relative;
-  top: 10px;
-}
+} */
 
 .subBtn {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   margin: 20px;
   padding: 10px 40px;
   display: flex;

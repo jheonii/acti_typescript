@@ -16,30 +16,28 @@ const HomeIngred = (): React.ReactElement => {
           <h4>화장품 궁합 분석</h4>
         </div>
         <div className={styles.figureCnt}>
-          <img src='./images/icons/Group.png'
-            alt='group icon' className={styles.grouper} />
-          <div className={styles.subBtnCnt}>
-            <div className={styles.subBtn}>
-              <img src='./images/icons/HardDrives.png'
-                alt='icon' className={styles.subIcon} />
-              <h4>9,341개 성분</h4>
-            </div>
-            <div className={styles.subBtn}>
-              <img src='./images/icons/Eyedropper.png'
-                alt='icon' className={styles.subIcon} />
-              <h4>내 화장품</h4>
-            </div>
-            <div className={styles.subBtn}>
-              <img src='./images/icons/Smiley.png'
-                alt='icon' className={styles.subIcon} />
-              <h4>내 피부상태</h4>
-            </div>
+          {/* <img src='./images/icons/Group.png'
+            alt='group icon' className={styles.grouper} /> */}
+          <div className={styles.subBtn}>
+            <img src='./images/icons/HardDrives.png'
+              alt='icon' className={styles.subIcon} />
+            <h4>9,341개 성분 효능-부작용 DB</h4>
+          </div>
+          <div className={styles.subBtn}>
+            <img src='./images/icons/Eyedropper.png'
+              alt='icon' className={styles.subIcon} />
+            <h4>내 화장품과의 궁합도 확인</h4>
+          </div>
+          <div className={styles.subBtn}>
+            <img src='./images/icons/Smiley.png'
+              alt='icon' className={styles.subIcon} />
+            <h4>내 피부 상태에 맞는 화장품 확인</h4>
           </div>
         </div>
 
         {/* putter */}
         <div className={styles.putter}>
-          <h3>출시 준비중이에요!</h3>
+          <h3>출시 준비중이에요! <br />5월에 오픈 베타 서비스를 런칭할 예정이에요.</h3>
         </div>
       </div>
 

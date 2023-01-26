@@ -9,13 +9,13 @@ body {
   height: 100vh;
 }
 
-body {
+/* body {
   -ms-user-select: none;
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
   -webkit-user-select: none;
   user-select: none;
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -59,4 +59,8 @@ h6 {
 
 button {
   cursor: pointer;
+}
+
+p {
+  margin: 0;
 }

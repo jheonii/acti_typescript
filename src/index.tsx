@@ -5,17 +5,21 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home/Home';
+import DiagnosisHome from './pages/Diagnosis_home/Diagnosis_home';
+import DiagnosisMain from './pages/Diagnosis_main/Diagnosis_main';
 
 
 
 const router = createBrowserRouter([
   {
-    path : '/',
-    element : <App />,
-    errorElement : <h1>Error</h1>,
-    children : [
-      { index: true, element : <Home />},
-      { path : 'home', element : <Home / >}
+    path: '/',
+    element: <App />,
+    errorElement: <h1>페이지 준비중</h1>,
+    children: [
+      { index: true, element: <Home /> },
+      { path: 'home', element: <Home /> },
+      { path: 'diagnosis', element: <DiagnosisHome /> },
+      { path: 'diagnosis-main', element: <DiagnosisMain /> }
     ]
 
   }
@@ -26,7 +30,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <RouterProvider  router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

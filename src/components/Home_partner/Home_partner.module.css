@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.textCnt {
+  margin-left: 20px;
+}
+
 .subTitle {
   padding: 4px 0;
   font-weight: 350;

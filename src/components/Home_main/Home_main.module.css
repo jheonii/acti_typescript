@@ -22,13 +22,14 @@
 .topTitle {
   color: makerGrey;
   margin-bottom: 16px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .roundTitle,
 .mainTitle {
   padding: 0 8px;
-  font-size: 34px;
+  font-size: 32px;
   line-height: 60px;
   letter-spacing: -2px;
 }
@@ -47,7 +48,7 @@
 
 .Btn {
   margin-top: 30px;
-  padding: 20px 30px;
+  padding: 14px 30px;
   background-color: black;
   border: none;
   color: white;
@@ -56,7 +57,7 @@
 }
 
 .Btn:hover {
-  background-color: #000000c6;
+  background-color: #a77d7d;
 }
 
 /*putter container*/

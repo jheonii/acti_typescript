@@ -1,0 +1,104 @@
+@value makerLightGrey from '../../common/color.css';
+@value makerGrey from '../../common/color.css';
+
+.section {
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 1200px; */
+  width: 100%;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 26%,
+    rgba(246, 252, 255, 1) 50%,
+    rgba(216, 234, 255, 1) 100%
+  );
+}
+
+.topCnt {
+  display: flex;
+}
+
+.doctor {
+  width: 39%;
+  border-radius: 100%;
+  pointer-events: none;
+}
+
+.container {
+  margin-left: 80px;
+  flex-basis: 60%;
+}
+
+.topCnt {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.leftText {
+  margin-right: 10px;
+  padding: 5px 12px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: white;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.rightText {
+  padding: 5px 15px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.mainTitle,
+.boldTitle {
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 300;
+}
+
+.boldTitle {
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 12px 70px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  transition: all ease 300ms;
+}
+
+.btn:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.desc {
+  margin-top: 50px;
+  color: makerGrey;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 2px;
+  background-color: makerLightGrey;
+}
