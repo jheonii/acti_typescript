@@ -23,7 +23,7 @@ const DiagnosisInfo = (): React.ReactElement => {
           <br />정확한 결과로 맞춤형 화장품까지 확인해보세요.
         </p>
         <div className={styles.line}></div>
-        <p style={{ fontWeight: 'bolder' }} >슈퍼어드바이저</p>
+        <p className={styles.profileText} style={{ fontWeight: 'bolder' }} >스킨어드바이저</p>
         <p className={styles.profileText}>분당서울대병원 성형외과장 허찬영 (現 서울대학교 의과대학 교수)</p>
       </div>
     </section>

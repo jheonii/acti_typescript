@@ -74,7 +74,7 @@
 .btn {
   margin-top: 30px;
   padding: 12px 70px;
-  border: 1px solid black;
+  border: 2px solid black;
   background-color: black;
   color: white;
   font-size: 20px;
@@ -82,7 +82,7 @@
 }
 
 .btn:hover {
-  border: 1px solid black;
+  border: 2px solid black;
   background-color: white;
   color: black;
   font-weight: bold;
@@ -101,4 +101,8 @@
   width: 100px;
   height: 2px;
   background-color: makerLightGrey;
+}
+
+.profileText {
+  font-size: 18px;
 }

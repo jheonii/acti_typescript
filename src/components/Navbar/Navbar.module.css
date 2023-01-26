@@ -2,14 +2,22 @@
 @value makerGrey from '../../common/color.css';
 
 .section {
+  z-index: 5;
+  position: sticky;
+  top: 0;
+  transform: translateX(0%);
+  padding: 20px 0;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  padding: 20px 0;
   max-width: 1200px;
-  width: 100%;
-  text-align: center;
 }
 
 .logo {
@@ -56,4 +64,20 @@
 
 .logoutBtn {
   color: makerGrey;
+}
+
+.subnav {
+  display: none;
+}
+
+/*mobile size*/
+@media (max-width: 800px) {
+  .section {
+    display: none;
+  }
+
+  .subnav {
+    margin: 30px 0 10px 0;
+    display: block;
+  }
 }

@@ -1,0 +1,79 @@
+@value makerLightGrey from '../../common/color.css';
+@value makerGrey from '../../common/color.css';
+
+.section {
+  margin: auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.topCnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.category {
+  margin-right: 10px;
+  padding: 5px 16px;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-weight: 400;
+}
+
+.time {
+  padding: 5px 16px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+}
+
+.mainTitle {
+  margin-top: 14px;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+/* components */
+
+.container {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.leftCnt,
+.rightCnt {
+  padding: 0 20px;
+}
+
+.next {
+  /* position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20%; */
+  border: 2px solid black;
+  margin-top: 100px;
+  padding: 26px 160px;
+  background-color: black;
+  color: white;
+  font-size: 28px;
+  transition: all ease 300ms;
+}
+
+.next:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .container {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

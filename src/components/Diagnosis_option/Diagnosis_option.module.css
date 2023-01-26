@@ -1,0 +1,46 @@
+@value makerLighterGrey from '../../common/color.css';
+@value makerLightGrey from '../../common/color.css';
+@value makerGrey from '../../common/color.css';
+
+.section {
+  width: 560px;
+}
+
+.title {
+  text-align: left;
+  font-weight: normal;
+}
+
+.container {
+  margin: 20px 0;
+  display: flex;
+}
+
+.optionA,
+.optionB {
+  flex: 1;
+  padding: 18px;
+  background-color: makerLighterGrey;
+  color: makerGrey;
+  font-weight: bold;
+  transition: all ease 200ms;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.optionA:hover,
+.optionB:hover {
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.optionA {
+  border-right: 2px solid makerLightGrey;
+}
+
+.optionA.selected,
+.optionB.selected {
+  background-color: black;
+  color: white;
+}

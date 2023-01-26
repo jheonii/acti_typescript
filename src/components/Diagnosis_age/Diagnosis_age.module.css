@@ -1,0 +1,64 @@
+@value makerLighterGrey from '../../common/color.css';
+@value makerLightGrey from '../../common/color.css';
+@value makerGrey from '../../common/color.css';
+
+.section {
+  padding-top: 30px;
+  width: 560px;
+}
+
+.title {
+  text-align: left;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 560px;
+  margin: 20px 0;
+  /* display: flex; */
+}
+
+.yearCnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: makerLighterGrey;
+  border: none;
+  color: makerGrey;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.yearList {
+  display: none;
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  background-color: rgb(62, 62, 62);
+  overflow-y: scroll;
+  list-style: none;
+}
+
+.yearList.visible {
+  display: block;
+}
+
+.yearItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 560px;
+  height: 60px;
+  font-size: 22px;
+  color: white;
+  transition: all ease 300ms;
+  cursor: pointer;
+}
+
+.yearItem:hover {
+  background-color: makerLighterGrey;
+  color: black;
+}

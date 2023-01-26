@@ -1,0 +1,34 @@
+@value makerLighterGrey from '../../common/color.css';
+@value makerLightGrey from '../../common/color.css';
+@value makerGrey from '../../common/color.css';
+
+.section {
+  padding-top: 30px;
+  width: 560px;
+}
+
+.title {
+  text-align: left;
+  font-weight: normal;
+}
+
+.container {
+  margin: 20px 0;
+  display: flex;
+}
+
+.input {
+  width: 100%;
+  padding: 28px 32px;
+  background-color: makerLighterGrey;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+.input::placeholder {
+  font-size: 22px;
+  font-weight: 500;
+  color: makerGrey;
+}
